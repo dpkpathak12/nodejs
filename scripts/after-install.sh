@@ -1,0 +1,1 @@
+cd /home/ubuntu/nodejs && docker-compose build -no-cache

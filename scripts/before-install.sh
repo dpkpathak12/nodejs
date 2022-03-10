@@ -1,0 +1,1 @@
+rm -rvf /home/ubuntu/nodejs
