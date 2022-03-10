@@ -1,1 +1,1 @@
-cd /home/ubuntu/nodejs && docker-compose build -no-cache
+cd /home/ubuntu/nodejs &&  docker-compose -f docker-compose.development.yml up -d
