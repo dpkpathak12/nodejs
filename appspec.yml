@@ -5,14 +5,14 @@ files:
     destination: /home/ubuntu/nodejs
 hooks:
   BeforeInstall:
-    - location: /home/ubuntu/scripts/before-install.sh
+    - location: scripts/before-install.sh
       timeout: 180
       runas: root
   AfterInstall:
-    - location: /home/ubuntu/scripts/after-install.sh
+    - location: scripts/after-install.sh
       timeout: 180
       runas: root
   ApplicationStart:
-    - location: /home/ubuntu/scripts/boot.sh
+    - location: scripts/boot.sh
       timeout: 180
       runas: root
